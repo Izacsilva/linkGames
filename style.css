@@ -1,0 +1,12 @@
+body {
+    font-size: 15pt;
+}
+
+img {
+  width: 100px;
+  
+}
+
+.channel-list>li img {
+  border-radius: 100%;
+}
