@@ -1,1 +1,1 @@
-document.write("Escrevendo no JavaScript")
+console.log("Escrevendo no JavaScript")
