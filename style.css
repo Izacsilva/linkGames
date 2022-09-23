@@ -6,13 +6,29 @@
   box-sizing: border-box;
 }
 body {
+    background-image: url(./assets/imagens/background-eSport.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
     background-color:#121214;
 }
 
+header {
+  max-width: 580px;
+  width: 90%;
+  margin: auto;
+}
+
+header div img {
+  border-radius: 50%;
+}
+
+/* 
+header * {
+  border: solid 1px red;
+} */
 
 main * {
-  
-  border: solid 1px red;
   font-family: 'Inter', sans-serif;
   
 }
@@ -31,9 +47,28 @@ section * {
 section h2 {
   font-weight: 900;
   font-size: 24px;
+  letter-spacing: -0.47px;
+}
+
+section p {
+  letter-spacing: -0.18px;
+  color: #A1A1AA;
+  margin-bottom: 24px;
 }
 section ul {
+  display: flex;
+  gap: 16px;
   list-style: none;
+
+}
+
+.game-list img {
+  width: 90px;
+  border-radius: 8px;
+}
+
+.channel-list img {
+  width: 70px;
 }
 
 img {
