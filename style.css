@@ -14,12 +14,23 @@ body {
 }
 
 header {
-  max-width: 580px;
-  width: 90%;
+  text-align: center;
+  margin-top: 32px;
+}
+
+header div {
+  background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+  border-radius: 50%;
+  display: flex;
   margin: auto;
+  padding: 4px;
+  width: 120px;
+  
+  
 }
 
 header div img {
+  width: 100%;
   border-radius: 50%;
 }
 
@@ -34,14 +45,33 @@ main * {
 }
 
 main {
+  display: grid;
+  gap: 24px;
   max-width: 580px;
   width:90%;
-  margin: auto;
+
+  margin: 32px auto;
+  
   
 }
+
+section {
+  background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+  padding-top: 4px;
+  border-radius: 10px;
+}
+
 section * {
   color: white;
   line-height: 160%;
+}
+
+section div {
+  background-color: #2A2634;
+  border-radius: 8px;
+  padding: 32px;
+  padding-top: 24px;
+
 }
 
 section h2 {
@@ -57,6 +87,7 @@ section p {
 }
 section ul {
   display: flex;
+  flex-wrap: wrap;
   gap: 16px;
   list-style: none;
 
@@ -68,14 +99,8 @@ section ul {
 }
 
 .channel-list img {
+  border-radius: 50%;
+  border: 1px solid #443E54;
   width: 70px;
 }
 
-img {
-  width: 100px;
-  
-}
-
-.channel-list>li img {
-  border-radius: 100%
-}
