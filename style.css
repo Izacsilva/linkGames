@@ -5,6 +5,7 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 body {
     background-image: url(./assets/imagens/background-eSport.jpg);
     background-position: top center;
@@ -16,6 +17,8 @@ body {
 header {
   text-align: center;
   margin-top: 32px;
+  
+  height: calc(120px + 32px);
 }
 
 header div {
@@ -37,11 +40,6 @@ header div img {
   width: 100%;
   border-radius: 50%;
 }
-
-/* 
-header * {
-  border: solid 1px red;
-} */
 
 main * {
   font-family: 'Inter', sans-serif;
@@ -89,6 +87,7 @@ section p {
   color: #A1A1AA;
   margin-bottom: 24px;
 }
+
 section ul {
   display: flex;
   flex-wrap: wrap;
@@ -105,7 +104,6 @@ section ul li:hover {
   transform: scale(1.1);
 }
 
-
 .game-list img {
   width: 90px;
   border-radius: 8px;
@@ -117,3 +115,22 @@ section ul li:hover {
   width: 70px;
 }
 
+/*---------- Animations -------*/
+
+header div {
+    /*invocação da animação, duração, delay, */
+  animation: fromtop 0.7 0.3 backwards;
+}
+
+@keyframes fromtop {
+  
+  from {
+    opacity: 0px;
+    transform: translateY(-30px);
+  }
+  
+  to {
+    opacity: 1;
+    transform: translateY(0px));
+  }
+}
