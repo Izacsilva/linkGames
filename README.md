@@ -5,6 +5,7 @@
 
 ## Preview
 ![preview](./.github/preview.png)
+[acesse pelo link](https://izacsilva.github.io/linkGames/)
 
 ## Tecnologias
 - HTML
